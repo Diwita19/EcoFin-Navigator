@@ -1,5 +1,7 @@
 # EcoFin Navigator
 
+<img src="Architecture" alt="Architecture" width=400/><br/>
+
 EcoFin Navigator is an AI-powered **economist & financial educator**.
 
 It acts as a friendly macro/markets tutor that:
