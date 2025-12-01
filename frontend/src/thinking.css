@@ -1,0 +1,46 @@
+.thinking-box {
+    background: #f4f6f9;
+    border-left: 4px solid #4a90e2;
+    padding: 14px 18px;
+    font-family: Inter, sans-serif;
+    border-radius: 6px;
+    margin: 16px 0;
+    animation: fadeIn 0.3s ease;
+}
+
+.thinking-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.thinking-list {
+    padding-left: 0;
+}
+
+.thinking-line {
+    list-style: none;
+    color: #6d6d6d;
+    margin-bottom: 6px;
+    animation: fadeStep 0.35s ease;
+}
+
+@keyframes fadeStep {
+    from {
+        opacity: 0;
+        transform: translateY(4px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

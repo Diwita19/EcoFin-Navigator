@@ -1,0 +1,4 @@
+requests
+pydantic
+rich
+google-genai
