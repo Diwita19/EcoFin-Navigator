@@ -1,5 +1,6 @@
 // src/components/Sidebar.jsx
 import React from "react";
+import ecofinIcon from "../assets/Bull-n-Bear.png";
 
 export default function Sidebar({
   threads,
@@ -11,8 +12,13 @@ export default function Sidebar({
   return (
     <aside className="sidebar">
       <div className="sidebar-header">
-        <div className="sidebar-title">EcoFin Navigator</div>
-        <div className="sidebar-subtitle">Macro · Portfolio · Risk</div>
+        <div className="sidebar-title">
+          <img
+            src={ecofinIcon}
+            alt="EcoFin Navigator"
+            className="sidebar-logo"
+          />
+        </div>
       </div>
 
       <button className="new-chat-btn" onClick={onNewChat}>
@@ -45,7 +51,7 @@ export default function Sidebar({
               <button
                 className="thread-delete"
                 onClick={(e) => {
-                  e.stopPropagation(); // don’t open the thread when deleting
+                  e.stopPropagation();
                   onDeleteThread(t.id);
                 }}
                 aria-label="Delete chat"
