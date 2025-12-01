@@ -68,11 +68,9 @@ EcoFin-Navigator/
 
 # Step1: Clone the Repository
 <pre><code>
-git clone https://github.com/&lt;your-username&gt;/EcoFin-Navigator.git
+git clone https://github.com/Diwita19/EcoFin-Navigator.git
 cd EcoFin-Navigator
 </code></pre>
-
-> Replace <code>&lt;your-username&gt;</code> with your actual GitHub username.
 
 ---
 
