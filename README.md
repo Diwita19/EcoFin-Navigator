@@ -1,7 +1,6 @@
 # EcoFin Navigator
 
-EcoFin Navigator is an AI-powered **economist & financial educator** built by  
-**Diwita Banerjee** as a capstone project using her GenAI wizardry.
+EcoFin Navigator is an AI-powered **economist & financial educator**.
 
 It acts as a friendly macro/markets tutor that:
 - Suggests example **investment plans** (not personalized financial advice)
