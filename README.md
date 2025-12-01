@@ -117,7 +117,7 @@ pip install -r requirements.txt
 Create a <code>.env</code> file inside the <code>backend/</code> folder:
 
 <pre><code>
-GOOGLE_API_KEY=your_real_gemini_api_key_here
+GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
 </code></pre>
 
 This is read by <code>config.py</code> and <code>routers/chat.py</code> to call Gemini models (e.g. <code>gemini-2.5-flash</code>).
