@@ -23,7 +23,7 @@ Under the hood:
 
 Ask questions like:
 
-- “I’m a beginner with \$10,000 in the US, give me example portfolio plans.”
+- “I’m a beginner with X money from X country, give me example portfolio plans.”
 - “Explain inflation and interest rates like I’m new to investing.”
 - “Tell me some harmless finance / market jokes.”
 
