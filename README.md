@@ -108,11 +108,7 @@ source ecofin/bin/activate
 </code></pre>
 
 ## Install backend dependencies
-<pre><code>
-pip install fastapi uvicorn python-dotenv google-genai requests
-</code></pre>
-
-If you have a <code>requirements.txt</code>, you can instead run:
+The requirements.txt file should list all Python libraries this project depends on, and they will be installed using:
 <pre><code>
 pip install -r requirements.txt
 </code></pre>
