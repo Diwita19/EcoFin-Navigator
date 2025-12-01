@@ -1,6 +1,6 @@
 # EcoFin Navigator
 
-<img src="Architecture" alt="Architecture" width=400/><br/>
+<img src="Architecture.png" alt="Architecture" width=400/><br/>
 
 EcoFin Navigator is an AI-powered **economist & financial educator**.
 
