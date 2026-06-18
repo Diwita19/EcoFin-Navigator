@@ -49,7 +49,7 @@ EcoFin-Navigator/
 │   │   ├── components/
 │   │   │   ├── ChatBubble.jsx        # Chat bubbles (user right, bot left) + "thinking..." animation
 │   │   │   ├── InputBar.jsx          # Prompt input & Send button
-│   │   │   ├── Sidebar.jsx           # Chat threads, new chat, delete thread
+│   │   │   ├── SideBar.jsx           # Chat threads, new chat, delete thread
 │   │   │   └── Loader.jsx            # Simple loading state (optional)
 │   │   │
 │   │   ├── hooks/
@@ -57,7 +57,7 @@ EcoFin-Navigator/
 │   │   │
 │   │   ├── App.jsx                   # Main app: layout + state (threads, theme, messages)
 │   │   ├── main.jsx                  # React entry point
-│   │   └── style.css                 # Chat UI, dark/light theme, layout
+│   │   └── styles.css                 # Chat UI, dark/light theme, layout
 │   │
 │   ├── index.html                    # Vite HTML shell
 │   └── package.json                  # Frontend scripts & dependencies
