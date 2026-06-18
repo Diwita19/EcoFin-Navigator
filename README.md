@@ -55,9 +55,11 @@ EcoFin-Navigator/
 │   │   ├── hooks/
 │   │   │   └── useChatStream.js      # SSE hook using EventSource for /chat/stream
 │   │   │
-│   │   ├── App.jsx                   # Main app: layout + state (threads, theme, messages)
+│   │   ├── App.jsx                   # Main app layout and state management
 │   │   ├── main.jsx                  # React entry point
-│   │   └── styles.css                 # Chat UI, dark/light theme, layout
+│   │   ├── App.css                   # Main app styling and global layout
+│   │   ├── thinking.css              # Styling for thinking steps and agent progress UI
+│   │   └── styles.css                # Chat UI, dark/light theme, layout
 │   │
 │   ├── index.html                    # Vite HTML shell
 │   └── package.json                  # Frontend scripts & dependencies
